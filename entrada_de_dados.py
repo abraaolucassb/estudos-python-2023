@@ -21,6 +21,7 @@ idade = input()
 print("Bem vindo {0} que tem a idade de {1} anos!".format(nome, idade))
 """
 
+
 # VERSÃO MAIS ATUAL
 nome = input("Qual o seu nome? ")
 idade = int(input("Qual a sua idade? "))
