@@ -25,6 +25,7 @@ print("Bem vindo {0} que tem a idade de {1} anos!".format(nome, idade))
 nome = input("Qual o seu nome? ")
 idade = int(input("Qual a sua idade? "))
 
-print(f"Bem vindo {nome} que tem a idade de {idade} anos, ou seja, nasceu em {2023 - idade}!")
+print(
+    f"Bem vindo {nome} que tem a idade de {idade} anos, ou seja, nasceu em {2023 - idade}!")
 
 print("oi")
