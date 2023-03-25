@@ -15,5 +15,10 @@ soma = num1 + num2
 prod = num1 * num2**2
 quad = num1**2
 raiz = (num1**2) + (num2**2) / 2
+mod = abs(num1)
 
-print(prod)
+print(f'A soma entre os números: {soma}',
+      f'\nO produto do primeiro pelo quadrado do segundo: {prod}',
+      f'\nO quadrado do segundo: {quad}',
+      f'\nA raiz da soma das raízes: {raiz}',
+      f'\nO módulo do primeiro número: {mod}')
