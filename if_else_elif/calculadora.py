@@ -24,5 +24,5 @@ elif option == 2:
     print('A subtração é: ', numero1 - numero2)
 elif option == 3:
     print('A multiplicação é: ', numero1 * numero2)
-elif option == 4:
+else:
     print('A divisão é: ', numero1 / numero2)
